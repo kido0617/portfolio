@@ -1,5 +1,5 @@
 .markdown a {
-  color: var(--color_primaryAcent);
+  color: #c0392b;
   text-decoration: underline;
 }
 .markdown p {
