@@ -18,6 +18,7 @@ body {
 
 ol {
   list-style-type: disc;
+  margin-left: 30px;
 }
 
 ol li{
