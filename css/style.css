@@ -21,7 +21,7 @@ ol {
   margin-left: 30px;
 }
 
-ol li{
+ol li {
   margin: 5px 0;
 }
 
@@ -75,7 +75,7 @@ ol li{
 }
 
 .main-header__title {
-  font-size: 4.5em;
+  font-size: 2.5em;
   font-weight: bold;
   text-align: center;
 }
@@ -143,7 +143,8 @@ ol li{
   .posts {
     flex-basis: 60%;
   }
-  .main-content__container{
+
+  .main-content__container {
     width: 60%;
   }
 }
@@ -152,7 +153,8 @@ ol li{
   .posts {
     flex-basis: 75%;
   }
-  .main-content__container{
+
+  .main-content__container {
     width: 75%;
   }
 }
@@ -161,7 +163,8 @@ ol li{
   .posts {
     flex-basis: 85%;
   }
-  .main-content__container{
+
+  .main-content__container {
     width: 85%;
   }
 }
@@ -170,18 +173,23 @@ ol li{
   .main-header__title {
     font-size: 10vw;
   }
+
   .posts__post__title {
     font-size: 3.5vw;
   }
+
   .main-header__description {
     margin: 0 10%;
   }
+
   .posts {
     flex-basis: 90%;
   }
-  .main-content__container{
+
+  .main-content__container {
     width: 90%;
   }
+
   .divisor {
     margin: 20px 0;
   }
@@ -199,15 +207,19 @@ ol li{
   .main-header__description {
     text-align: center;
   }
+
   .pagination {
     margin: 0;
   }
+
   .divisor {
     margin: 0;
   }
-  .main-content__container{
+
+  .main-content__container {
     width: 90%;
   }
+
   .main-footer {
     flex-wrap: wrap;
     justify-content: center;
@@ -215,22 +227,23 @@ ol li{
 }
 
 
-.steam{
-  margin-bottom:20px;
+.steam {
+  margin-bottom: 20px;
 }
 
-.steam a{
+.steam a {
   display: none;
 }
 
-@media screen and (max-width: 646px)  {
+@media screen and (max-width: 646px) {
 
-  .steam iframe{
-		display: none;
-	}
-  .steam a{
+  .steam iframe {
+    display: none;
+  }
+
+  .steam a {
     display: inline;
   }
-	
+
 
 }
